@@ -13,7 +13,7 @@ function power(base, exp) {
   return total;
 }
 
-/* Different ways of function invocation */
+/* ========== Different ways of function invocation ============== */
 
 // ====> normal invocation
 console.log(power(1, 3));
@@ -47,8 +47,7 @@ let sayHey = () => {
 // invocation
 // sayHey();
 
-/** ==================== Function as an object attribute ==============================
- */
+/** ==================== Function as an object attribute =================== */
 
 // First, create an object of student
 const student = {
