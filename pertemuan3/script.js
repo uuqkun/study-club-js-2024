@@ -9,19 +9,18 @@ const contentElement = document.getElementById('content');
 
 // Change the text content and style of the content
 contentElement.textContent = 'This is an updated paragraph.';
-contentElement.style.color = 'blue';
 
 // Add a click event listener to the button
 const buttonElement = document.getElementById('btn');
-buttonElement.addEventListener('click', function() {
-  alert('Button clicked!');
+buttonElement.addEventListener('click', function () {
+  contentElement.classList.toggle('button-clicked');
 });
 
 const inputElement = document.getElementById('input');
 
 
 // Add a keyup event listener to the input
-inputElement.addEventListener('keyup', function(event) {
+inputElement.addEventListener('keyup', function (event) {
   const value = event.target.value;
   console.log(value);
 });
